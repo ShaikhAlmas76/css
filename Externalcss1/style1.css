@@ -1,0 +1,23 @@
+h1 {
+
+    color: hsl(0, 99%, 49%);
+    background-color: aqua;
+    text-align: center;
+}
+
+h2 {
+  color: orangered;
+  text-align: center; 
+
+}
+
+p {
+    background-color: hsl(329, 100%, 37%);
+    color: aliceblue;
+}
+
+
+ div, h2, h2{
+
+     color: blue;
+}
