@@ -1,0 +1,35 @@
+
+p::first-letter {
+
+    font-size: 40px;
+    color: red;
+    background-color: rgb(255, 170, 0);
+
+}
+
+p::first-line {
+
+  background-color: rgb(30, 210, 168);          
+}
+
+h1::after {
+    content: "+";
+}
+
+h2::before {
+    content: "+";
+}
+
+a:visited {
+    color: rgb(3, 5, 0);
+}
+
+
+h4::selection{
+    background-color: chartreuse;
+}
+
+h3:hover{
+
+    background-color: magenta;
+}
