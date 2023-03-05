@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            display: grid;
+            background-color: cornflowerblue;
+            /* height: 600px; */
+            border: 1px solid;
+            row-gap: 10px;
+            column-gap: 10px;
+            /* grid-template-rows: 150px 150px 150px 150px;
+            grid-template-columns: 150px 150px 150px 150px; */
+            grid-template-rows: 100px 1fr 1fr 100px;
+            grid-template-columns: 1fr 1fr 1fr;
+            /* grid-template-rows: repeat(3, 1fr);
+            grid-template-columns: repeat(3, 1fr); */
+        }
+
+        .items {
+            /* width: 150px;
+            height: 150px; */
+            /* margin: 10px; */
+            background-color: rgb(14, 237, 237);
+        }
+
+        #header {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            font-size: 50px;
+            color: rgb(19, 18, 18);
+            text-align: center;
+
+        }
+        #item2{
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        #item3{
+            grid-column-start: 2;
+            grid-column-end: 4;
+
+        }
+        #footer{
+            font-size: 50px;
+            color: rgb(29, 27, 27);
+            text-align: center;
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <div class="items" id="header">header</div>
+
+        
+        <div class="items" id="item2">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet sint nobis, qui tempore dicta dolore itaque repudiandae est sit obcaecati quidem iste illo vel, doloremque id ullam non adipisci voluptatem.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit error sint dolores praesentium neque? Esse magni quibusdam omnis quis assumenda consectetur dolore. Quae ex tempora atque explicabo soluta corrupti dolorum rem rerum voluptates fugiat obcaecati praesentium ?
+            </p>
+        </div>
+        <div class="items" id="item3"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items" id="footer">footer</div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+    </div>
+
+
+</body>
+
+</html>
