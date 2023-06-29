@@ -1,0 +1,583 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.row {
+    display: flex;
+}
+
+.jcs {
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+
+
+.align-center {
+    align-items: center;
+}
+
+.col-25 {
+    width: 25%;
+}
+
+.po_ab {
+    position: absolute;
+    /* top: 0; */
+}
+
+.po_rel {
+    position: relative;
+}
+
+header {
+    background-color: #5381c184;
+}
+
+.home_sec {
+    background-image: url(./Images/background\ img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo img {
+    width: 100px;
+    vertical-align: middle;
+}
+
+.navbar {
+    line-height: 120px;
+}
+
+.links ul li {
+    display: inline-block;
+}
+
+.links ul li a {
+    font-size: 30px;
+    margin: 0 0 0 50px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.sec_one_text {
+    /* margin: 100px 0; */
+    padding: 120px 0 200px 0;
+}
+
+.sec_one_text h1 {
+    padding: 100px 0 25px 0;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    font-weight: 700;
+}
+
+.sec_one_text p {
+    font-size: 25px;
+    color: white;
+    margin: 0 auto;
+    width: 50%;
+    padding: 0 0 25px 0;
+    text-align: center;
+}
+
+.ordernow button {
+    padding: 15px 50px;
+    border-radius: 32px;
+    background-color: #edc315;
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+
+.sec_two {
+    overflow: hidden;
+    background-color: #739ee3;
+
+    overflow: hidden;
+    z-index: -1;
+}
+
+.sec_two h2 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding: 65px 0 30px 0;
+}
+
+.sec_two_text p {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    /* padding: 0 0 65px 0; */
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.cart {
+    padding: 83px 0;
+    margin-bottom: 50px;
+}
+
+
+.cart h3 {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.cart p {
+    /* padding:20px 0; */
+    text-align: center;
+    font-size: 23px;
+    color: white;
+}
+
+.cart img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.cart_sec_three {
+    padding: 83px 0;
+    /* margin-bottom: 50px; */
+}
+
+
+.cart_sec_three h3 {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.cart_sec_three p {
+    /* padding:20px 0; */
+    text-align: center;
+    font-size: 23px;
+    color: white;
+}
+
+.cart_sec_three img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+.sec_rd {
+    top: -70px;
+    left: -170px;
+    z-index: -1;
+}
+
+.sec_ld {
+    top: -130px;
+    right: -80px;
+    z-index: -1;
+
+}
+
+.sec_rt_tp {
+    top: 70px;
+    left: 100px;
+}
+
+.sec_dot_tp {
+    top: 90px;
+    right: 230px;
+}
+
+.sec_rt_btm {
+    bottom: 10px;
+    right: 245px;
+}
+
+.sec_third {
+    overflow: hidden;
+    background-image: url(./image/yellowimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: visible;
+}
+
+.sec_third h2 {
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    padding: 40px 0 30px 0;
+}
+
+.sec_third_text p {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    /* padding: 0 0 65px 0; */
+    width: 61%;
+    margin: 0 auto;
+}
+
+#radius {
+    width: 100%;
+    border: 15px solid white;
+    border-radius: 50%;
+    padding: 60px 0;
+}
+
+.third_pad {
+    padding-bottom: 200px;
+}
+
+.sec_third_text {
+    padding-top: 45px;
+}
+
+#radius h3 {
+    font-size: 60px;
+}
+
+.dot_squre {
+    top: -11px;
+    left: 200px;
+}
+
+.sec_four {
+    background-color: #5380c1;
+    padding: 50px 0;
+    /* overflow: visible; */
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.ordernow_four button {
+    padding: 15px 80px;
+    border-radius: 32px;
+    background-color: #edc315;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+
+.dog_four {
+    padding: 80px 80px 80px 0;
+}
+
+.sec_four_text h2 {
+    font-size: 70px;
+    margin: 0 0 50px 0;
+    color: white;
+}
+
+.sec_four_text p {
+    /* width: 80%; */
+    font-size: 20px;
+    margin: 0 0 30px 0;
+    color: white;
+}
+
+.sec_four_text {
+    padding: 0 40px 0 0;
+}
+
+
+.dog_four img {
+    border-radius: 50%;
+    padding: 150px 0 100px 15px;
+}
+
+.four_dot_top {
+    top: 215px;
+    right: 177px;
+}
+
+.four_dot_btm {
+    bottom: 80px;
+    left: 170px;
+}
+
+.four_tri_top {
+    top: 215px;
+    left: 135px;
+}
+
+.four_tri_btm {
+    bottom: -30px;
+    right: 200px;
+    z-index: 1;
+}
+
+.sec_five {
+    background-color: #739ee3;
+    padding: 50px 0;
+    /* overflow: visible; */
+}
+
+.ordernow_five button {
+    padding: 15px 80px;
+    border-radius: 32px;
+    background-color: #edc315;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+
+.dog_five {
+    padding: 80px 0;
+}
+
+.sec_five_text h2 {
+    font-size: 70px;
+    margin: 0 0 50px 0;
+    color: white;
+}
+
+.sec_five_text p {
+    /* width: 80%; */
+    font-size: 20px;
+    margin: 0 0 30px 0;
+    color: white;
+}
+
+.sec_five_text {
+    padding: 0 0 0 50px;
+}
+
+.dog_five img {
+    border-radius: 50%;
+    padding: 150px 0 100px 15px;
+}
+
+.five_dot_top {
+    top: 180px;
+    right: 80px;
+}
+
+.five_dot_btm {
+    bottom: 80px;
+    left: 180px;
+}
+
+.five_lt {
+    top: 150px;
+    left: 150px;
+}
+
+.five_rt {
+    bottom: 150px;
+    right: 300px;
+}
+
+.sec_six {
+    background-color: #5380c1;
+}
+
+.sec_six_text h3 {
+    padding: 100px 0 25px 0;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+}
+
+.sec_six_text p {
+    margin: 0 auto;
+    padding: 0 0 30px 0;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    width: 60%;
+}
+
+.col-30 {
+    width: 25%;
+    background-color: white;
+    border-radius: 8px;
+    padding-bottom: 25px;
+}
+
+.cart_two {
+    border-radius: 8px;
+    color: #5380c1;
+    padding: 80px 0 60px 0;
+}
+
+.cart_two h4 {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.cart_two p {
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.cart_two img {
+    display: block;
+    margin: 0 auto;
+}
+
+.sec_seven {
+    background-color: #739ee3;
+    overflow: hidden;
+}
+
+.sec_seven_text h4 {
+    padding: 40px 0 25px 0;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+}
+
+.sec_seven_text p {
+    margin: 0 auto;
+    padding: 0 0 20px 0;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    width: 60%;
+}
+
+.seven {
+    padding: 75px 0;
+}
+
+.col-50-seven {
+    width: 45%;
+    /* padding-bottom: 50px; */
+}
+
+.icon_seven {
+    margin: 0 25px 0 0;
+}
+
+.cart_three {
+    padding: 20px 0 60px 0;
+    margin: 0 auto;
+
+}
+
+.cart_three h4 {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.cart_three p {
+    font-size: 20px;
+    color: white;
+    /* width: 80%; */
+}
+
+.seven_br {
+    bottom: -181px;
+    right: -183px;
+}
+
+.seven_bl {
+    bottom: 50px;
+    left: -10px;
+}
+
+.seven_tr {
+    top: 180px;
+    right: -10px;
+}
+
+.sec_eight {
+    background-image: url(./image/eight-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.eight_1 {
+    padding: 100px 0;
+}
+
+.eight_2 {
+    padding: 100px 0;
+}
+
+.sec_eight_text h4 {
+    font-size: 90px;
+    margin: 0 0 50px 0;
+    color: white;
+    text-align: center;
+}
+
+.sec_eight_text p {
+    font-size: 50px;
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.sec_eight_text {
+    padding: 100px 0;
+}
+
+.sec_nine {
+    background-color: #343434;
+}
+
+.footer {
+    padding: 70px 30px;
+}
+
+.col-50-foot {
+    width: 50%;
+}
+
+.social {
+    width: 30%;
+}
+
+.col-50-foot h4 {
+    font-size: 40px;
+    margin: 0 0 50px 0;
+    color: white;
+    text-transform: uppercase;
+}
+
+.col-50-foot p {
+    font-size: 20px;
+    width: 70%;
+    margin: 0 0 50px 0;
+    color: white;
+}
+
+.col-50-foot i {
+    font-size: 40px;
+    color: white;
+}
+
+.col-30-foot a {
+    display: block;
+}
+
+.col-30-foot {
+    width: 30%;
+}
+
+.col-30-foot a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 5px;
+}
