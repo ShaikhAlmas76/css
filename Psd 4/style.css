@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+}
+
+.row {
+    display: flex;
+
+}
+
+.link ul li a {
+    color: white;
+    display: inline-block;
+}
+
+.jcs {
+    justify-content: space-between;
+}
+
+.sec-one {
+
+    background-image: url(./img/Header\ Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
