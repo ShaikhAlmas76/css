@@ -4,26 +4,24 @@
     box-sizing: border-box;
 }
 
-.container {
-    width: 1200px;
+.conteiner {
+    width: 1250px;
+    margin: 0 auto;
 }
 
 .row {
     display: flex;
-
 }
 
-.link ul li a {
-    color: white;
-    display: inline-block;
-}
-
-.jcs {
+.js {
     justify-content: space-between;
 }
 
-.sec-one {
+.links ul li {
+    display: inline-block;
+}
 
+.sec-one {
     background-image: url(./img/Header\ Background.png);
     background-repeat: no-repeat;
     background-size: cover;
